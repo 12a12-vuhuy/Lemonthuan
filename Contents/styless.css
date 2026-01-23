@@ -3,5 +3,9 @@ h1 {
 }
 .f1{
    color:blue;
-   front-size
+   front-size: 20pt;
 } 
+.f2 {
+    color:black;
+    front-size: 14pt;
+}
