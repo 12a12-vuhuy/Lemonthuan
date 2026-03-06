@@ -18,15 +18,17 @@ html, body {
 
 
 .header {
-    flex: 0 0 auto; 
+    flex: 0 0 15%; /* Thay vì auto, dùng 15% để giới hạn chiều cao */
     width: 100%;
     background-color: lightgray;
+    overflow: hidden; /* Thêm dòng này để ảnh không tràn ra ngoài */
 }
 
 .header img {
-    width: 100%;
-    height: auto;
+    width: auto;      /* Đổi từ 100% thành auto */
+    height: 100%;     /* Đổi từ auto thành 100% */
     display: block;
+    margin: 0 auto;   /* Thêm dòng này để căn giữa tấm hình */
 }
 
 
@@ -52,9 +54,9 @@ html, body {
 
 
 .content {
-    flex: 1 1 auto; 
-    display: flex;
+    flex: 70%; /* Hoặc con số bạn muốn */
     background-color: white;
+    display: flex; /* BẮT BUỘC thêm dòng này */
 }
 
 
